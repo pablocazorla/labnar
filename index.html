@@ -3,12 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Template</title>
+	<title>Ediciones LABNAR</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
 	<!-- CSS -->
 	<link type="text/css" rel="stylesheet" href="css/normalize.css">
 	<link type="text/css" rel="stylesheet" href="css/style.css">
@@ -18,8 +20,175 @@
 	<![endif]-->
 </head>
 <body>
-	<h1>Template</h1>
-
+	<article class="main-article page wrap">
+		<header class="main-header clearfix">
+			<div class="col-left">
+				<a href="" class="brand">
+					<img src="img/EdicionesLABNAR.png" class="auto-size" width="232" height="230"/>
+				</a>
+			</div>
+			<div class="col-right">
+				<menu class="main-menu clearfix">
+					<a href="" class="active"><span></span>Editorial</a>
+					<a href=""><span></span>Noticias</a>
+					<a href=""><span></span>Contacto</a>
+					<a href=""><span></span>Usuarios</a>
+				</menu>
+				<div class="carrito">
+					<p class="carrito-title">Tu compra</p>
+					<p>Nº Artículos: <span id="carrito-amount">5</span></p>
+					<p>Importe: <span id="carrito-price">124,28 &euro;</span></p>
+				</div>
+				<nav class="breadcrumbs">
+					<a href="">Inicio</a> &gt;&gt; <a href="">Bienvenidos</a>
+				</nav>
+			</div>
+		</header>
+		<div class="article-content clearfix">
+			<div class="col-left">
+				<aside class="main-aside">
+					<form>
+						<div class="buscador">
+							<input type="text" class="buscador-input" value="" placeholder="Buscar..."/>
+							<input type="submit" class="buscador-submit" value=""/>
+						</div>						
+					</form>
+					<menu class="menudinamico">
+						<ul>
+							<li>
+								<a href="">Novela</a>
+								<ul>
+									<li>
+										<a href="">Misterio</a>
+									</li>
+									<li>
+										<a href="">Aventuras</a>
+									</li>
+									<li>
+										<a href="">Histórica</a>
+										<ul>
+											<li>
+												<a href="">Medieval</a>
+											</li>
+											<li>
+												<a href="">Siglo XX</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">Juvenil</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Ensayo</a>
+							</li>
+							<li>
+								<a href="">Infantil</a>
+							</li>
+							<li>
+								<a href="">Best-Seller</a>
+							</li>
+						</ul>
+					</menu>
+					<div class="banerfijo">
+						<img src="img/envio-gratis.png" class="auto-size no-limit" width="200" height="236"/>
+					</div>
+				</aside>
+			</div>
+			<div class="col-right">
+				<div class="slider"></div>
+				<section class="products">
+					<ul class="product-list">
+						<li>
+							<div class="product-list-element">
+								<a href="" class="product-list-viewDetail">							
+									<img src="img/product-thumbs/dispara-yo-ya-estoy-muerto.jpg" class="product-thumbnail">
+									<div class="product-list-summary">
+										<h3>Dispara, yo ya estoy muerto</h3>
+										<h4>Julia Navarro</h4>
+										<p class="price"><strike>19,90 &euro;</strike> 15,99 &euro;</p>
+									</div>
+									<img src="img/sale-product.png" class="sale-product">
+								</a>
+								<a href="" class="product-list-addToCart">Comprar<span></span></a>						
+							</div>
+						</li>
+						<li>
+							<div class="product-list-element">
+								<a href="" class="product-list-viewDetail">							
+									<img src="img/product-thumbs/el-tiempo-entre-costuras.jpg" class="product-thumbnail">
+									<div class="product-list-summary">
+										<h3>El tiempo entre costuras</h3>
+										<h4>María Dueñas</h4>
+										<p class="price">19,99 &euro;</p>
+									</div>
+								</a>
+								<a href="" class="product-list-addToCart">Comprar<span></span></a>						
+							</div>
+						</li>
+						<li>
+							<div class="product-list-element">
+								<a href="" class="product-list-viewDetail">							
+									<img src="img/product-thumbs/el-francotirador-paciente.jpg" class="product-thumbnail">
+									<div class="product-list-summary">
+										<h3>El francotirador paciente</h3>
+										<h4>Arturo Pérez-Reverte</h4>
+										<p class="price"><strike>23,00 &euro;</strike> 21,99 &euro;</p>
+									</div>
+									<img src="img/sale-product.png" class="sale-product">
+								</a>
+								<a href="" class="product-list-addToCart">Comprar<span></span></a>						
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section class="news">
+					<ul class="news-list">
+						<li>
+							<div class="news-list-element clearfix">
+								<div class="news-list-meta">
+									<div class="white-line"></div>
+									<div class="news-list-date">
+										<span class="day">24</span>
+										<span class="month">Ene</span>
+										<span class="year">2015</span>
+									</div>
+									<a href="" class="read-more">Leer +</a>
+									<div class="white-line"></div>
+								</div>
+								<div class="news-list-content">
+									<h3>Fuerzas de la Naturaleza: Las Cenizas del Destino (2014)</h3>
+									<div class="row">
+										<div class="col s4">
+											<img src="img/news-thumb/fuerza-naturaleza.jpg" class="news-thumb auto-size">
+										</div>
+										<div class="col s8">
+											<p>Presentación Oficial de la novela Fuerzas de la Naturaleza: Las Cenizas del Destino, en las Casas del Tratado de Tordesillas (Valladolid). Una tarde muy emotiva en el pueblo donde se desarrolla la trama del libro. Agradecer al Departamento de Cultura del Ayuntamiento de Tordesillas esta gran oportunidad y su colaboración.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>		
+	</article>
+	<footer class="main-footer">
+		<div class="footer-linkmap">
+			<div class="wrap">
+				dfssdfsdfsdf
+			</div>
+		</div>
+		<div class="footer-contact">
+			<div class="wrap">
+sdfsdfsdf
+			</div>
+		</div>
+	</footer>
+	<!--
 	<script src="js/libs/jquery-1.11.2.min.js"></script>
 	<script src="js/app.js"></script>
+	-->
 </body>
